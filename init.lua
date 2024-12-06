@@ -109,6 +109,10 @@ vim.api.nvim_set_keymap('v', 'gh', '^', { desc = 'Go to the start of line', nore
 vim.api.nvim_set_keymap('n', 'gl', '$', { desc = 'Go to the end of line', noremap = true, silent = true })
 vim.api.nvim_set_keymap('v', 'gl', '$', { desc = 'Go to the end of line', noremap = true, silent = true })
 
+-- Go to the end of the file with gl in normal and visual mode
+vim.api.nvim_set_keymap('n', 'ge', '<cmd>$<CR>', { desc = 'Go to the end of file', noremap = true, silent = true })
+vim.api.nvim_set_keymap('v', 'ge', '<cmd>$<CR>', { desc = 'Go to the end of file', noremap = true, silent = true })
+
 -- Exit terminal mode in the builtin terminal with a shortcut that is a bit easier
 -- for people to discover. Otherwise, you normally need to press <C-\><C-n>, which
 -- is not what someone will guess without a bit more experience.
