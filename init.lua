@@ -1,3 +1,4 @@
+--
 -- [[ Load options]]
 require 'config.options'
 
