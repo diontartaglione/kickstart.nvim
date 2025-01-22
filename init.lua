@@ -24,6 +24,7 @@ require('lazy').setup({
   require 'plugins.tokyonight',
   require 'plugins.autocompletion',
   require 'plugins.vim-sleuth',
+  require 'plugins.nvim-tmux-navigation',
   require 'plugins.lsp.lazydev',
   require 'plugins.lsp.luvit-meta',
   require 'plugins.lsp.lspconfig',
